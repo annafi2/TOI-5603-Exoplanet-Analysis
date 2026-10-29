@@ -108,9 +108,33 @@ pip install lightkurve astropy matplotlib numpy
 The transit depth gives the planetary radius from the occulted stellar area:
 $$\frac{R_p}{R_*} = \sqrt{\delta}$$
 
+### Planetary Radius ($R_p$)
+The transit depth gives the planetary radius from the occulted stellar area:
+
+$$
+\frac{R_p}{R_*} = \sqrt{\delta}
+$$
+
 ### Semi-Major Axis (Kepler's Third Law)
 With $M_p \ll M_*$:
-$$a = \left( \frac{G M_* P^2}{4\pi^2} \right)^{1/3} \approx \left[ M_* (M_\odot) \times \left(\frac{P}{365.25\text{ d}}\right)^2 \right]^{1/3} \text{AU}$$
+
+$$
+a = \left( \frac{G M_* P^2}{4\pi^2} \right)^{1/3} \approx \left[ M_* (M_\odot) \times \left(\frac{P}{365.25\text{ d}}\right)^2 \right]^{1/3} \text{AU}
+$$
+
+### Radial Velocity Semi-Amplitude ($K$)
+For a circular orbit ($e = 0$) and edge-on transit ($\sin i \approx 1$):
+
+$$
+K \approx 28.4 \times \left( \frac{P}{1\text{ d}} \right)^{-1/3} \left( \frac{M_p}{M_{\text{Jup}}} \right) \left( \frac{M_*}{M_\odot} \right)^{-2/3} \text{m/s}
+$$
+
+### Equilibrium Temperature ($T_{\text{eq}}$)
+Assuming zero Bond albedo ($A_B = 0$) and uniform heat redistribution:
+
+$$
+T_{\text{eq}} = T_{\text{eff}} \sqrt{\frac{R_*}{2a}}
+$$
 
 ### Radial Velocity Semi-Amplitude ($K$)
 The stellar reflex semi-amplitude sets the target for spectroscopic follow-up:

@@ -1,0 +1,25 @@
+# Laporan Karakterisasi Fisis: TOI-5603.01
+
+- **ID Katalog:** TIC 224293782
+- **Periode Orbit:** 0.5736183 hari (~13.8 jam)
+- **Kedalaman Transit:** 0.067%
+- **Radius Bintang ($R_*$):** 2.12 $R_\odot$
+- **Suhu Bintang ($T_{eff}$):** 6712 K
+
+## Tabel Parameter Turunan
+
+| Kategori | Parameter | Simbol | Nilai | Satuan | Keterangan |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| Geometri | Rasio Radius | `Rp / R*` | 0.02588 | - | Akar dari kedalaman transit |
+| Geometri | Radius Planet (Bumi) | `Rp` | 5.99 | R_Earth | Ukuran relatif thd Bumi |
+| Geometri | Radius Planet (Jupiter) | `Rp` | 0.534 | R_Jup | Kelas Sub-Saturn / Gas Giant |
+| Massa | Massa Teoretis (Bumi) | `Mp` | 28.6 | M_Earth | Relasi empiris Chen & Kipping (2017) |
+| Massa | Massa Teoretis (Jupiter) | `Mp` | 0.090 | M_Jup | Perkiraan massa analitis |
+| Orbit | Sumbu Semi-Mayor | `a` | 0.01529 | AU | Jarak orbit via Hukum Kepler III |
+| Orbit | Jarak ke Pusat Bintang | `a` | 2,287,722 | km | Orbit sangat rapat (USP) |
+| Spektroskopi | Semi-Amplitudo RV | `K` | 2.40 | m/s | Goyangan bintang target deteksi |
+| Termal | Insolasi Relatif | `S` | 34,996 | S_Earth | Fluks radiasi dibanding Bumi |
+| Termal | Temperatur Ekuilibrium (A=0) | `Teq` | 3811 | Kelvin | Model albedo nol & panas merata |
+| Termal | Temperatur Ekuilibrium (A=0.3) | `Teq` | 3486 | Kelvin | Model albedo atmosferik tipikal |
+
+> *Catatan: Nilai massa dan kecepatan radial dihitung secara empiris analitis untuk keperluan perencanaan observasi lanjutan dan validasi statistik.* 

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.vscode/
+# Opsional: abaikan file FITS jika ukurannya besar di masa depan
+# *.fits
